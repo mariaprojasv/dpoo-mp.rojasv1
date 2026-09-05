@@ -1,0 +1,19 @@
+{
+  "aeropuertos": [
+    { "nombre": "El Dorado", "codigo": "BOG", "nombreCiudad": "Bogotá", "latitud": 4.7016, "longitud": -74.1469 },
+    { "nombre": "José María Córdova", "codigo": "MDE", "nombreCiudad": "Medellín", "latitud": 6.1645, "longitud": -75.4231 },
+    { "nombre": "Rafael Núñez", "codigo": "CTG", "nombreCiudad": "Cartagena", "latitud": 10.4424, "longitud": -75.5130 }
+  ],
+  "aviones": [
+    { "nombre": "A320-1", "capacidad": 150 },
+    { "nombre": "ATR72-3", "capacidad": 70 }
+  ],
+  "rutas": [
+    { "codigoRuta": "4558", "origen": "BOG", "destino": "MDE", "horaSalida": "0700", "horaLlegada": "0800" },
+    { "codigoRuta": "7890", "origen": "BOG", "destino": "CTG", "horaSalida": "0730", "horaLlegada": "0900" }
+  ],
+  "vuelos": [
+    { "codigoRuta": "4558", "fecha": "2024-11-05", "nombreAvion": "A320-1" },
+    { "codigoRuta": "7890", "fecha": "2024-12-20", "nombreAvion": "ATR72-3" }
+  ]
+}
